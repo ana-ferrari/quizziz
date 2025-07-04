@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  text-align: center;
+  padding: -1px;
+}
+
+.container {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0;
+}
+
+.pergunta {
+  margin-bottom: 30px;
+}
+
+.pergunta p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+button.resposta {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #eee;
+  transition: background 0.3s;
+}
+
+button.resposta:hover {
+  background-color: #ddd;
+}
+
+button.correta {
+  background-color: #4CAF50 !important;
+  color: white;
+}
+
+button.errada {
+  background-color: #f44336 !important;
+  color: white;
+}
+
+
+.custom-nav{
+    background: url('imagem/quizziz.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    padding: 0%;
+}
+
+.form-container{
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+
+    background: rgba(0,0,0,0.6);
+    border: 3px double rgba(218, 165, 32,0.8);
+    border-radius: 15px;
+
+    box-shadow: 0 0 20px rgba(218, 165, 32,0.4),
+                0 0 5px rgba(255, 255, 255,0.1);
+
+    backdrop-filter: blur(5px);
+    
+}
+
+.titulo{
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    color: gold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 20px;
+}
+
+textarea {
+
+    background: rgba(255, 255, 255,0.1);
+    color: #fff;
+    border: 1px solid goldenrod;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+input[type="color"]{
+
+    padding: 0;
+    height: 35px;
+    width: 60px;
+    border: none;
+}
+
+input[type="file"]{
+    background-color: rgba(255, 255, 255,0.05);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: gold;
+    box-shadow: 0 0 8px gold;
+}
+
+button {
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+    border:none;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: gold;
+    box-shadow: 0 0 10px gold;  
+}
