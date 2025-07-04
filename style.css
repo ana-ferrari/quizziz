@@ -51,7 +51,7 @@ button.errada {
 
 
 .custom-nav{
-    background: url('imagem/quizziz.jpeg') no-repeat center center;
+    background: url('quizziz.jpeg') no-repeat center center;
     background-size: cover;
     height: 100%;
     display: flex;
